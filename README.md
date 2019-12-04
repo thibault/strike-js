@@ -40,11 +40,12 @@ Ajoutez ceci à la fin de votre html, juste avant la clôture de la balise
     </script>
 ```
 
-La fonction `strike` prend deux paramètres :
+La fonction `strike` prend trois paramètres :
 
 1. la date correspondante au jour de grève ;
 2. un tableau contenant une liste de chaînes de caractères qui seront
-   insérées dans des balises `<p>`.
+   insérées dans des balises `<p>` ;
+3. une valeur booléenne indiquant si l'écran doit disparaitre après un click (`true`) ou non (`false`).
 
 Avant et après le jour donné, la fonction est sans effet.
 
@@ -64,9 +65,9 @@ Exemple : *https://example.com/?strikeTest*
 ## Et mon référencement ?
 
 Strike-js utilise une fonction javascript pour ajouter un écran noir qui se
-superpose à votre site. Cette fonction est vraissemblablement sans effet pour
+superpose à votre site. Cette fonction est vraisemblablement sans effet pour
 les moteurs de recherche, et vous ne devriez subir aucune pénalité de
 référencement d'aucune sorte.
 
-Strike-js n'offre est toutefois fourni sans garantie, vous l'utilisez sous
+Strike-js est toutefois fourni sans garantie, vous l'utilisez sous
 votre responsabilité.
