@@ -14,6 +14,12 @@ votre site pour une journée.
 Le message et la date de grève sont configurables.
 
 
+## Pourquoi faire ?
+
+Pour les gens qui ne peuvent pas faire grève et qui veulent trouver un autre
+moyen de protester.
+
+
 ## Comment s'en servir ?
 
 Strike-js n'utilise aucune dépendance.
@@ -55,7 +61,12 @@ le paramètre `strikeTest` à votre url.
 Exemple : *https://example.com/?strikeTest*
 
 
-## Pourquoi faire ?
+## Et mon référencement ?
 
-Pour les gens qui ne peuvent pas faire grève et qui veulent trouver un autre
-moyen de protester.
+Strike-js utilise une fonction javascript pour ajouter un écran noir qui se
+superpose à votre site. Cette fonction est vraissemblablement sans effet pour
+les moteurs de recherche, et vous ne devriez subir aucune pénalité de
+référencement d'aucune sorte.
+
+Strike-js n'offre est toutefois fourni sans garantie, vous l'utilisez sous
+votre responsabilité.
