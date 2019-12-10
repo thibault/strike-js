@@ -70,3 +70,7 @@ référencement d'aucune sorte.
 
 Strike-js n'offre est toutefois fourni sans garantie, vous l'utilisez sous
 votre responsabilité.
+
+## Quelle autre action puis-je faire pour soutenir la grève ?
+
+Un collectif de développeuses et développeurs soutentant la grève a été créé récemment, nommé [onestla.tech](https://onestla.tech/). Vous pouvez rejoindre la liste des signataires.
