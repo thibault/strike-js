@@ -13,6 +13,9 @@ votre site pour une journée.
 
 Le message et la date de grève sont configurables.
 
+Fabriqué avec amour par Thibault Jouannic.
+https://www.miximum.fr · [@thibaultj](https://twitter.com/thibaultj/).
+
 
 ## Pourquoi faire ?
 
