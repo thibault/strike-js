@@ -15,7 +15,7 @@
         // Create a `p` element for each phrase.
         messages.forEach(function (m) {
             var p = document.createElement('p');
-            p.appendChild(document.createTextNode(m));
+            p.insertAdjacentHTML('beforeend', m);
             container.appendChild(p);
         });
     };

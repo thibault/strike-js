@@ -21,3 +21,7 @@ div#strike-screen div p {
     font-size: 32px;
     text-align: center;
 }
+
+div#strike-screen div a {
+    color: white;
+}
