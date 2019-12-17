@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Grève-js démo</title>
+</head>
+<body>
+    <h1>Page html simplissime pour tester strike-js</h1>
+    <link rel="stylesheet" href="./strike.css" type="text/css" charset="utf-8">
+    <script src="./strike.js"></script>
+    <script>
+        strike(new Date('2019-12-17'), [
+            'Contre la destruction de notre modèle social.',
+            'Contre l\'augmentation croissante des inégalités.',
+            'Contre la stigmatisation systématique des plus fragiles.',
+            'Ce site est en grève.',
+            '<a href="https://greve.cool/">S\'informer sur la grève</a> · ' +
+            '<a href="https://www.infocomcgt.fr/caisse-de-solidarite-financiere/">Participer à la caisse de grève</a>',
+            '<small><a href="https://github.com/thibault/strike-js">Mettre votre site en grève</a></small>'
+        ]);
+    </script>
+</body>
+</html>
