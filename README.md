@@ -63,6 +63,9 @@ le paramètre `strikeTest` à votre url.
 
 Exemple : *https://example.com/?strikeTest*
 
+Vous pouvez aussi afficher le fichier [demo.html](./demo.html) dans votre
+navigateur.
+
 
 ## Et mon référencement ?
 
