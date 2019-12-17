@@ -31,8 +31,8 @@ Ajoutez ceci à la fin de votre html, juste avant la clôture de la balise
 `body` :
 
 ```html
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/thibault/strike-js@master/strike.css" type="text/css" charset="utf-8">
-    <script src="https://cdn.jsdelivr.net/gh/thibault/strike-js@master/strike.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/thibault/strike-js@1.0.0/strike.css" type="text/css" charset="utf-8">
+    <script src="https://cdn.jsdelivr.net/gh/thibault/strike-js@1.0.0/strike.js"></script>
     <script>
         strike(new Date('2019-12-05'), [
             'Contre la destruction de notre modèle social.',
