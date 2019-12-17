@@ -39,7 +39,10 @@ Ajoutez ceci à la fin de votre html, juste avant la clôture de la balise
             'Contre l\'augmentation croissante des inégalités.',
             'Contre la stigmatisation systématique des plus fragiles.',
             'Ce site est en grève.',
-            ]);
+            '<a href="https://greve.cool/">S\'informer sur la grève</a> · ' +
+            '<a href="https://www.infocomcgt.fr/caisse-de-solidarite-financiere/">Participer à la caisse de grève</a>',
+            '<small><a href="https://github.com/thibault/strike-js">Mettre votre site en grève</a></small>'
+        ]);
     </script>
 ```
 
@@ -54,6 +57,11 @@ Avant et après le jour donné, la fonction est sans effet.
 Cet exemple utilise [jsdeliver comme CDN](https://www.jsdelivr.com/?docs=gh)
 pour servir les fichiers présents sur ce dépôt, mais vous êtes libre de
 récupérer les fichiers pour les servir vous même.
+
+Note 1 : il est possible de passer du html, et notamment des liens `<a>`.
+
+Note 2 : les liens listés dans cette documentation le sont à titre
+d'exemple, il ne s'agit pas d'un cautionnement de ma part.
 
 
 ## Comment le tester ?
