@@ -64,9 +64,9 @@ Exemple : *https://example.com/?strikeTest*
 ## Et mon référencement ?
 
 Strike-js utilise une fonction javascript pour ajouter un écran noir qui se
-superpose à votre site. Cette fonction est vraissemblablement sans effet pour
+superpose à votre site. Cette fonction est vraisemblablement sans effet pour
 les moteurs de recherche, et vous ne devriez subir aucune pénalité de
 référencement d'aucune sorte.
 
-Strike-js n'offre est toutefois fourni sans garantie, vous l'utilisez sous
+Strike-js est toutefois fourni sans garantie, vous l'utilisez sous
 votre responsabilité.
