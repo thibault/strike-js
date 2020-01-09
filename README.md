@@ -48,11 +48,28 @@ Ajoutez ceci à la fin de votre html, juste avant la clôture de la balise
 
 La fonction `strike` prend deux paramètres :
 
-1. la date correspondante au jour de grève ;
+1. la ou les date(s) correspondante(s) au(x) jour(s) de grève ;
 2. un tableau contenant une liste de chaînes de caractères qui seront
    insérées dans des balises `<p>`.
+   
+Pour prévoir plusieurs jours :
 
-Avant et après le jour donné, la fonction est sans effet.
+```html
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/thibault/strike-js@1.0.0/strike.css" type="text/css" charset="utf-8">
+    <script src="https://cdn.jsdelivr.net/gh/thibault/strike-js@1.0.0/strike.js"></script>
+    <script>
+        strike([
+            new Date('2020-01-09'),
+            new Date('2020-01-10'),
+            new Date('2020-01-11'),
+            new Date('2020-01-12')
+        ], [
+            ...
+        ]);
+    </script>
+```
+
+Avant et après le(s) jour(s) donné(s), la fonction est sans effet.
 
 Cet exemple utilise [jsdeliver comme CDN](https://www.jsdelivr.com/?docs=gh)
 pour servir les fichiers présents sur ce dépôt, mais vous êtes libre de
