@@ -20,12 +20,20 @@
         });
     };
 
-    window.strike = function (strikeDay, messages) {
+    window.strike = function (strikeDays, messages) {
 
         var strikeTest = window.location.search.search('strikeTest') != -1;
 
         var today = new Date();
-        var strikeIsToday = today.toDateString() == strikeDay.toDateString();
+
+        if (!Array.isArray(strikeDays))
+        {
+            strikeDays = [strikeDays];
+        }
+
+        var strikeIsToday = strikeDays.some(function (day) {
+            return today.toDateString() == day.toDateString();
+        });
 
         if (strikeTest || strikeIsToday) {
             onStrike(messages);
